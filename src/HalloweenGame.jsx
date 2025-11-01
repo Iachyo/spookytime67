@@ -6,7 +6,7 @@ const HalloweenGame = () => {
   const [candy, setCandy] = useState(0);
   const [message, setMessage] = useState("Use WASD to move, SPACE to knock on doors!");
   const [housesVisited, setHousesVisited] = useState(0);
-  const houseCount = 100;
+  const houseCount = 1000;
 
   useEffect(() => {
     const scene = new THREE.Scene();
